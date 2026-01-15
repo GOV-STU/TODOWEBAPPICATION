@@ -9,7 +9,7 @@ const nextConfig: NextConfig = {
   
   // Configure environment variables
   env: {
-    NEXT_PUBLIC_API_URL: process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000',
+    NEXT_PUBLIC_API_URL: 'https://hanzalagov-backendoftodo.hf.space',
   },
   
   // Optimize images
