@@ -2,13 +2,14 @@ import { Task, CreateTaskDto, UpdateTaskDto } from "@/types/task";
 
 const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 interface ApiResponse<T> {
   success: boolean;
   data?: T;
   error?: {
     code: string;
     message: string;
-    details?: any;
+    details?: unknown;
   };
 }
 
