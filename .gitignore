@@ -91,3 +91,12 @@ coverage.xml
 # Claude temporary files
 .claude/
 .spec-kit/
+
+# Next.js
+.next/
+out/
+*.tsbuildinfo
+next-env.d.ts
+
+# Vercel
+.vercel
